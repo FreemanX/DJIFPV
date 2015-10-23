@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <usb-accessory model="T600" manufacturer="DJI"/>
+</resources><!-- From: file:/G:/google_drive/FYP/DJIFPV/DJI-SDK-LIB/res/xml/accessory_filter.xml --><!-- From: file:/G:/google_drive/FYP/DJIFPV/DJI-SDK-LIB/build/intermediates/bundles/debug/res/xml/accessory_filter.xml -->
