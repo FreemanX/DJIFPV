@@ -139,7 +139,9 @@ Summery:
 5. Call DJIDrone.connectToDrone() after calling onInitSDK() method (Tricky part, see note 2)
 
 6. About the main activity:
+
 	@Override
+	
 	 protected void onResume() {
 		super.onResume();
 		DJIDrone.getDjiMC().startUpdateTimer(1000); // Start the update timer for MC to update info
@@ -147,6 +149,7 @@ Summery:
 	}
 
 	@Override
+	
 	protected void onPause() {
 		super.onPause();
 		DJIDrone.getDjiMC().stopUpdateTimer(); // Stop the update timer for MC to update info
@@ -161,6 +164,7 @@ Summery:
 	class ExitCleanTask extends TimerTask {
 
 	@Override
+	
 	public void run() {
 
 		Log.e("ExitCleanTask", "Run in!!!! ");
@@ -168,10 +172,12 @@ Summery:
 		}
 	}
 	@Override
-		// Tab return button twice to exit the app
+	
+	// Tab return button twice to exit the app
     
 	public boolean onKeyDown(int keyCode, KeyEvent event) { 
 		// TODO Auto-generated method stub
+		
 		if (keyCode == KeyEvent.KEYCODE_BACK) {
 		Log.d(TAG,"onKeyDown KEYCODE_BACK");
 
